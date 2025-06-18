@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            /* Tipos de peso de fontes = lighter, normal, bold e bolder | pode usar numero de 100 a 900 casoa  fonte permita */
+            /* weight = peso | width = largura | height = altura */
+            
+        }
+
+        h1 {
+            
+            /* shorthand = mãozinha
+            font-style -> font-weight -> font-size -> font-family
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            uma linha abaixo substitui todo o código acima
+
+            */
+            font: italic bolder 3em arial, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt vel mollitia, laborum nesciunt architecto totam similique impedit aliquam labore sed dolores quae, explicabo, quos suscipit doloribus libero nisi quibusdam maxime. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero modi earum quia ad, cupiditate culpa ipsa voluptatibus ab, soluta obcaecati repudiandae. Nostrum reprehenderit voluptatum at rem incidunt tenetur error?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate repellat animi possimus laudantium, vitae pariatur illo quam eligendi incidunt facere quos delectus voluptatibus fugit, repellendus, doloribus minus culpa quisquam.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias fugiat quibusdam expedita tempora quam dicta animi unde aut est magni ex temporibus aspernatur deleniti, suscipit asperiores ut officiis, illo enim! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur adipisci amet aut veniam vel, delectus deserunt nulla saepe omnis voluptatem dicta, voluptatibus commodi repellat quos accusamus? Molestias facilis asperiores vero.</p>
+</body>
+</html>
