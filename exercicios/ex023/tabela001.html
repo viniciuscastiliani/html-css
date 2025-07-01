@@ -11,6 +11,7 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
 
@@ -21,10 +22,16 @@
         td {
             border: 2px solid black;
             padding: 8px;
+            text-align: center; /* alinhamento vertical */
+            vertical-align: middle; /* alinhamento horizontal - top, middle e bottom */
         }
 
         td.dado {
             background-color: aquamarine;
+        }
+
+        #numero {
+            text-align: right;
         }
     </style>
 </head>
@@ -46,13 +53,13 @@
         <tr>
             <td class="dado">A2</td>
             <td class="dado">B2</td>
-            <td class="dado">C2</td>
+            <td class="dado" id="numero">10</td>
         </tr>
 
         <tr class="linha">
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td id="numero">11</td>
         </tr>
 
         <tr>
