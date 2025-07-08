@@ -19,9 +19,24 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n-1 */
+            background-color: rgb(193, 226, 236);
+        }
+
+        tbody > tr:nth-child(odd) {  /* 2n */
+            background-color: rgb(219, 240, 228);
         }
 
         td.num {
@@ -33,6 +48,7 @@
     <!--
         ANATOMIA DE TABELAS GRANDES
         TABLE
+            CAPITION
             THEAD
                 TR, TD, TH
             TBODY
@@ -44,8 +60,8 @@
     <table>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -188,10 +204,11 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>212.583.750</strong></td>
             </tr>
         </tfoot>
+        <caption>População das Unidades Federativas</caption>
     </table>
 </body>
 </html>
