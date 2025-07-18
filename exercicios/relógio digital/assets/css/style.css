@@ -15,7 +15,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    background: linear-gradient(120deg, #212121d8, #000000da);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,9 +49,11 @@ body {
 .relogio span {
     font-weight: bolder;
     font-size: 90px;
+    color: rgb(128, 255, 0);
 }
 
 .relogio span.tempo {
     font-size: 15px;
     font-family: "Quicksand", sans-serif;
+    color: white;
 }
