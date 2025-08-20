@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* Todas as demais medias */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media print {
+    
+}
